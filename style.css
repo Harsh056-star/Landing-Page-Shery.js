@@ -34,10 +34,30 @@ html,body{
     width: 80%;
     height: 100vh;
     max-width: 1920px;/*Depends on resolution of a display*/
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
-
 #nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 40px 0;
+}
+#nav img{
+    height: 60px;
+}
+#navleft, #navright{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    
+}
+#navleft a, #navright a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    /* letter-spacing: 1px; */
+    color: white;
+    font-family: "gilroy";
 }
