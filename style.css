@@ -73,7 +73,32 @@ html,body{
 }
 #heroleft{
     min-width: 50%;
-    background-color: yellow;
+}
+#heroleft .element{
+    height: 9vw;
+    overflow: hidden;
+    
+}
+#heroleft .element h1{
+    line-height: .9;
+    font-family: "kajiro";
+    color: white;
+    font-weight: 100;
+    font-size: 11vw;
+}
+.line {
+  height: 2px;
+  width: 170px;
+  background-color: white;
+  color: white;
+  position: absolute;
+  top: 65%;
+  right: 70%;
+}
+#heroleft button{
+    padding: .5vw 1vw;
+    font-size: 2vw;
+    margin-top: 3.5vw;
 }
 #heroright{
     min-width: 25%;
