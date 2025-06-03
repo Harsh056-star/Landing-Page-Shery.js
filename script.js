@@ -1,1 +1,1 @@
-//Pending Shery.js
+//Pending Shery.js due to synchronization of Shery.js
